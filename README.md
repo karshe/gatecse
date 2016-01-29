@@ -1,5 +1,9 @@
 #``printf('lets prepare for GATE!');``
 
+> Dr Deep and his journey—so lets dive in. <br/>
+> <a href="http://karshe.github.io/gatecse/">Visit Dr Deep blog here</a>
+
+---
 I am preparing for GATE, so I prepared a repo — all formula and concepts I might be needed.
 
 ##I divided whole thing into few blocks —

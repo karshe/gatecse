@@ -1,6 +1,7 @@
 #``printf('lets prepare for GATE!');``
 
 > Dr Deep and his journey—so lets dive in. <br/>
+> <img src="https://raw.githubusercontent.com/karshe/gatecse/master/paul.png"/>
 > <a href="http://karshe.github.io/gatecse/">Visit Dr Deep blog here</a>
 
 ---

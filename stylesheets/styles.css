@@ -1,4 +1,432 @@
 body{
-	background: #000;
-	color: #fff;
+	background: #f0c24f;
+	color: #151515;
+	font-family: 'Arial', sans-serif;
+}
+
+a{
+	border-style: none;
+    text-transform: none;
+    color: #f3f3eb;
+    border-bottom-style: dotted;
+}
+
+a:hover, a::after, a::before{
+    text-transform: none;
+    text-decoration: none;
+    color: #f3f3eb;
+}
+
+header{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	border-left: 30px solid #f43530;
+}
+
+header small{
+	color: #f43530;
+}
+
+
+.title-text{
+	border-top: 5px solid #f43530;
+	font-family: 'Questrial', sans-serif;
+	letter-spacing: -1px;
+	color: #f43530;
+	font-weight: bold;
+}
+
+header a{
+	border-style: none;
+    border-bottom-style: dotted;
+    text-transform: none;
+    color: #151515;
+}
+
+header a:hover, a::after, a::before{
+    text-transform: none;
+    text-decoration: none;
+    color: #151515;
+}
+
+.crimson-body{
+	font-family: 'Vollkorn', serif;
+	font-size: 18px;
+	margin-top: 55px;
+}
+
+.crimson-body h2{
+	border-style: none;
+    border-top-style: dotted;
+	font-family: 'Questrial', sans-serif;
+	font-size: 22px;
+	letter-spacing: -1px;
+	color: #f43530;
+	font-weight: bold;
+}
+
+.crimson-body h3{
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.chapter-div{
+	opacity: 0.5;
+	cursor: pointer;
+	margin-left: 80px;
+}
+
+.chapter-div em{
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.chapter-div:hover{
+	opacity: 1;
+}
+
+.map-elements{
+	margin-left: -50px;
+    margin-bottom: -145px;
+    width: 128px;
+}
+
+.paul-icon{
+	height: 50px;
+	opacity: 0.9;
+	cursor: none;
+}
+
+.paul-icon:hover{
+	opacity: 1;
+}
+
+.sidebar{
+	font-family: 'Questrial', sans-serif;
+	letter-spacing: -1px;
+	color: #f43530;
+	font-weight: bold;
+}
+
+.sidebar h2{
+	font-family: 'Questrial', sans-serif;
+	letter-spacing: -1px;
+	color: #f43530;
+	font-weight: bold;
+}
+
+.sidebar blockquote{
+	border-left: 5px solid #f43530;
+}
+
+.sidebar ul{
+	font-size: 20px;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.sidebar li{
+	margin-top: 5px;
+	padding-left: 5px;
+	border-left: 5px solid #f43530;
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.sidebar li:hover{
+	border-left: 5px solid #151515;
+	opacity: 1;
+	color: #151515;
+}
+
+footer{
+	position: relative;
+	background: #f43530 url('../images/back_body.jpg');
+	top: 55px;
+	border: none;
+	border-top: 5px solid #f3f3eb;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 15px;
+	color: #f3f3eb;
+}
+
+.footer-leftbar-content{
+	width: 45%;
+}
+
+footer h3{
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	letter-spacing: -1px;
+	color: #f3f3eb;
+	font-weight: bold;	
+}
+
+.mojoSigil{
+	width: 230px;
+	opacity: 0.7;
+	margin-top: 55px;
+	cursor: none;
+	-ms-transform: rotate(-2deg); /* IE 9 */
+    -webkit-transform: rotate(-2deg); /* Safari */
+    transform: rotate(-2deg);
+}
+
+.mojoSigil:hover{
+	opacity: 1;
+	-ms-transform: rotate(-4deg); /* IE 9 */
+    -webkit-transform: rotate(-4deg); /* Safari */
+    transform: rotate(-4deg);
+}
+
+.hr-h{
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	border: none;
+}
+
+.footer-leftbar, .footer-leftbar small{
+	color: #f3f3eb;
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+	letter-spacing: -0.1px;
+}
+
+.footer-copyright{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer-leftbar h5{
+	color: #f3f3eb;
+	font-family: 'Arial', sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase !important;
+}
+
+.footer-leftbar h5 a{
+	text-transform: uppercase !important;
+}
+
+.footer-copyright h6{
+	font-family: 'Questrial', sans-serif;
+	letter-spacing: 11px;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #151515;
+	color: #f43530;
+	margin: 0px;
+	padding: 11px;
+}
+
+::selection{
+	background: #151515;
+	color: #f43530;
+}
+
+.chapter-body{
+	font-family: 'Vollkorn', serif;
+	font-size: 1.1em;
+}
+
+.chapter-title{
+	font-family: 'Vollkorn', serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+
+.inchapter-icon{
+	width: 24px;
+}
+
+.chapter-body blockquote{
+	font-family: 'Arial', sans-serif;
+	font-size: 1.2em;
+	margin: 10px 7px;
+	border: 7px solid #f43530;
+   	border-left: none;
+   	border-right: none;
+	color: #f43530;
+	letter-spacing: -1.3px;
+	font-weight: bold;
+}
+
+.chapter-body blockquote h3{
+	color: #f43530;
+	font-family: 'Questrial', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase !important;
+}
+
+.chapter-body p{
+	font-family: 'Vollkorn', serif;
+	font-size: 1.2em;
+	margin: 15px 7px;
+	text-align: justify;
+}
+
+.chapter-body p.introduction:first-letter {
+	font-family: 'Vollkorn', serif;
+ 	font-size: 3.2em;
+ 	float: left; 
+ 	line-height: 35px;
+	padding-top: 3px; 
+	padding-right: 3px;
+ }
+
+ .chapter-nav{
+ 	float: right;
+ 	padding-top: 10px;
+ 	margin-right: 20px;
+ 	text-align: right;
+ 	opacity: 0.8;
+ }
+
+ .chapter-nav a:hover{
+ 	color: #f43530;
+ 	opacity: 1;
+ }
+
+.learning-obj-ul ul{
+	font-family: 'Vollkorn', serif;
+	font-size: 15px;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	color: #000;
+	font-weight: normal;
+}
+
+.learning-obj-ul a {
+	border-bottom-style: none;
+}
+
+ .learning-obj-ul li {
+    display: inline;
+	opacity: 0.3;
+	cursor: pointer;
+	border: none;
+	padding-left: 0px;
+}
+
+ .learning-obj-ul li::after { 
+    content: ",";
+}
+
+ .learning-obj-ul li:last-child:after {
+    content: "."; 
+}
+
+
+ .learning-obj-ul li:hover{
+	opacity: 1;
+	color: #151515;
+	border: none;
+	text-decoration: overline;
+}
+
+.chapter-body em{
+	font-variant: small-caps;
+	font-family: 'Questrial', sans-serif;
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+}
+
+.deep-diary-page{
+	background: #fff url('../diary/page-bg.png') no-repeat;
+	background-size: cover;
+	width: 575px;
+	min-height: 620px;
+	padding-top: 50px;
+	padding-left: 65px;
+	margin-bottom: 10px;
+	color: #000;
+}
+
+.page-flip{
+	background: #fff url('../diary/pagef-bg.png') right top no-repeat;
+	background-size: cover;
+	width: 575px;
+	min-height: 620px;
+	padding-top: 50px;
+	padding-right: 65px;
+	margin-bottom: 10px;
+	color: #000;
+	text-align: right;
+}
+
+.deep-diary-page h2{
+	font-family: 'Kalam', cursive;
+	font-size: 1.9em;
+	text-transform: uppercase;
+}
+
+.deep-diary-page small{
+	color: #000;
+	opacity: 0.7;
+}
+
+.deep-diary-page p{
+	font-family: 'Kalam', cursive;
+	font-size: 1.3em;
+	margin-top: -5px;
+	width: 90%;
+	text-align: justify;
+	padding-bottom: 12px;
+}
+
+
+.print-only{
+	display: none;
+}
+
+@media print {
+   body{
+   	background: #f1f1f1 !important;
+   }
+
+	a[href]:after {
+	 content: none !important;
+	}
+
+   .sidebar, footer{
+   	display: none;
+   }
+
+   .chapter-body blockquote{
+   	font-weight: normal;
+   	border: 2px solid #000;
+   	border-left: none;
+   	border-right: none;
+   	letter-spacing: 0px;
+   }
+
+   header{
+   	border-left: none;
+   }
+
+   .title-text{
+   	border: none;
+   }
+
+   .print-only{
+	 display: inline-block;
+	}
+
+	.print-hide{
+	 display: none;
+	}
+
 }
